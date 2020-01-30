@@ -9,7 +9,7 @@ cap = cv2.VideoCapture(0)
 
 #now providing image so that it will be overlayed on the checkerboard
 #reading the image from the defined subject
-images = glob.glob('IMG_20191102_124031.jpg') 
+images = glob.glob('image.jpg') 
 #the provided image is selected
 currentImg=0  
 #now the defined image is read using 'imread' function
